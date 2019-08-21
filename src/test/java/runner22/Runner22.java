@@ -6,8 +6,6 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(pluguin= {"json:target/cucumber.json"})
-
+@CucumberOptions(plugin= {"json:target/cucumber.json"})
 public class Runner22 {
-
 }
